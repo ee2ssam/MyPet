@@ -3,7 +3,7 @@ using UnityEngine;
 namespace MyPet.AI
 {
     public class CatController : AnimalController
-    {
+    {        
         protected override void Start()
         {
             base.Start(); //StateMachine 생성, IdleState() 등록
